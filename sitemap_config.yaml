@@ -1,0 +1,15 @@
+max_urls_per_sitemap: 50000
+max_concurrent_requests: 10
+requests_per_second: 2
+max_depth: 3
+exclude_patterns:
+  - login
+  - admin
+  - wp-admin
+  - logout
+valid_extensions:
+  - .html
+  - .php
+  - .asp
+  - .aspx
+  - ''
